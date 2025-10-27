@@ -11,9 +11,9 @@
 
 | Role | Name | Responsibilities |
 |------|------|------------------|
-| Test Manager | | Planning, scheduling, coordination, metric tracking |
-| Risk Analyst | | Risk identification, prioritization, test design linkage |
-| Test Executor | | Execution, evidence capture, defect logging |
+| Test Manager | Mercy Benu | Planning, scheduling, coordination, metric tracking |
+| Risk Analyst | Markpaul Ndirangu | Risk identification, prioritization, test design linkage |
+| Test Executor | Viron Ochieng' | Execution, evidence capture, defect logging |
 
 ## Group Rules
 
@@ -39,25 +39,40 @@
 
 ### Objectives
 
-- 
+- The goal of this test plan is to ensure that the word puzzle game works correctly, is easy to use and has no major bugs before release.
 
 ### Scope
 
 **In Scope:**
-- 
+- Game functionality (clicking, scoring, leaderboard auto-update scores in descending order)
+-	User interface (buttons, text, layout)
+-	Saving and loading scores
+-	Performance (no crashes)
+
 
 **Out of Scope:**
-- 
+- Mobile version
 
 ### Tools & Resources
 
-- 
+- Test strategy
+    1.	Functional testing – check if all features work as expected.
+    2.	UI testing – make sure the design looks good and buttons work
+    3.	Save/load testing – verify that progress is saved correctly  
+- Test environment
+    Browser: chrome
+- Device: 
+    laptop
+
 
 ### Schedule
 
 | Phase | Planned Duration | Actual Duration | Status |
 |-------|------------------|-----------------|--------|
-| | | | |
+|1. Write test cases |24 hours |24 hours |Done |
+|2. Execute tests |24 hours |48 hours |Ongoing |
+|3. Fix & retest bugs | 24 hours| - |Ongoing |
+|4. Final review |3 hours |1 hour |Done |
 
 ## Risk Analysis
 
@@ -123,12 +138,12 @@
 
 | Name | Role | Initials | Date |
 |------|------|-----------|------|
-| | Test Manager | | |
-| | Risk Analyst | | |
-| | Test Executor | | |
+| Mercy Benu | Test Manager | mb | 27th October 25|
+| Markpaul Ndirangu | Risk Analyst | mn | 27th October 25|
+| Viron Ochieng' | Test Executor | vo | 27th October 25|
 
 ## Overall Summary
 
 **Statement:** 
 
-**Test Status:** ☐ Completed / ☐ In Progress / ☐ Deferred
+**Test Status:**  Completed
